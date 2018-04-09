@@ -95,8 +95,8 @@ var pool = Stratum.createPool({
         // {   //Backup daemon instance
         //     "host": "127.0.0.1",
         //     "port": 19344,
-        //     "user": "litecoinrpc",
-        //     "password": "testnet"
+        //     "user": "rpcuser",
+        //     "password": "rpcpassword"
         // }
     ],
 
