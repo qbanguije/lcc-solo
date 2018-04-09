@@ -45,13 +45,12 @@ nvm install v0.10.25
 2. Install.
 
 ```
-git clone https://github.com/qbanguije/node-merged-pool.git
-git clone https://github.com/qbanguije/lcc-solo.git
+git clone https://github.com/qbanguije/lcc-solo.git lcc-solo
 cd lcc-solo
+git clone https://github.com/qbanguije/stratum-pool.git
 cp node-stratum-pool/package.json package.json
 npm install
 mv node-stratum-pool node_modules/stratum-pool
-git clone 
 ```
 
 4. Edit the server,js file to suit your configuration:
