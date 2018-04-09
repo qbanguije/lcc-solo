@@ -11,8 +11,8 @@ You will need to install and configure LiteCoinCash Core on your server. You wil
 Create your litecoincash.conf file. After you are done with the .conf file, start the daemon with the ```-server``` switch.
 
 ```
-rpcuser=pickanrpcuser
-rpcpassword=securerpcpassword
+rpcuser=rpcuser
+rpcpassword=rpcpassword
 rpcport=9332
 daemon=1
 server=1
