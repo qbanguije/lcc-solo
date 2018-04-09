@@ -150,4 +150,4 @@ pool.on('log', function(severity, logKey, logText){
 
 console.log("Starting Pool")
 pool.start();
-console.log("Pool started", pool)
+console.log("Pool started")
