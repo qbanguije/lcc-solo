@@ -12,15 +12,15 @@ var pool = Stratum.createPool({
 
     "auxes": [],
 
-    "address": "CGWfk7MDtvHcvt1NFZYSoTyssk95YxBBFW", //Address to where block rewards are given
+    "address": "", //Address to where block rewards are given
 
     /* Block rewards go to the configured pool wallet address to later be paid out to miners,
        except for a percentage that can go to, for examples, pool operator(s) as pool fees or
        or to donations address. Addresses or hashed public keys can be used. Here is an example
        of rewards going to the main pool op, a pool co-owner, and NOMP donation. */
     // "rewardRecipients": {
-    //     "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5, //1.5% goes to pool op
-    //     "mirj3LtZxbSTharhtXvotqtJXUY7ki5qfx": 0.5, //0.5% goes to a pool co-owner
+    //     "": 1.5, //1.5% goes to pool op
+    //     "": 0.5, //0.5% goes to a pool co-owner
     // },
 
     "blockRefreshInterval": 1000, //How often to poll RPC daemons for new blocks, in milliseconds
@@ -89,8 +89,8 @@ var pool = Stratum.createPool({
         {   //Main daemon instance
             "host": "127.0.0.1",
             "port": 9332,
-            "user": "lccrpc",
-            "password": "r34n3l2018"
+            "user": "rpcuser",
+            "password": "rpcpassword"
         }
         // {   //Backup daemon instance
         //     "host": "127.0.0.1",
