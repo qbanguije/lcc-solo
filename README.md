@@ -21,8 +21,6 @@ gen=0
 
 ## Step 2: Creating your Stratum Server (aka Mining Pool)
 
-Install the OS dependancies needed.
-
 1. Install Node.js, NPM, and NVM:
 
 ```
@@ -98,7 +96,7 @@ Then you're all set!
 
 ## Step 5: Connect your rigs
 
-At this point, your pool is all set and you can start working. Connect your miners to your pool as:
+At this point, your pool is all set and you can start mining. Connect your miners to your pool as:
 
 ```
 stratum+tcp://EXTERNAL_IP:3333
