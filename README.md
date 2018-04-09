@@ -51,7 +51,7 @@ npm install
 mv stratum-pool node_modules/
 ```
 
-4. Edit the server,js file to suit your configuration:
+4. Edit the server.js file to suit your configuration:
 
 5. Run the server:
 
