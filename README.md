@@ -27,6 +27,7 @@ gen=0
 apt-get install build-essential -y
 apt-get install nodejs-legacy npm -y
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+apt-get install libavahi-compat-libdnssd-dev -y
 ```
 After running `curl` to install NVM, you should see in your output something like:
 ```
