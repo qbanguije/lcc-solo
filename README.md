@@ -24,7 +24,8 @@ gen=0
 1. Install Node.js, NPM, and NVM:
 
 ```
-sudo apt-get install nodejs-legacy npm
+apt-get install -y build-essential
+apt-get install nodejs-legacy npm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 ```
 After running `curl` to install NVM, you should see in your output something like:
