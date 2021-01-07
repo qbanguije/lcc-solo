@@ -39,6 +39,7 @@ source /home/<your username>/.bashrc
 We want to use Node.js 0.10 so run:
 ```
 nvm install v0.10.25
+npm install node-gyp
 ```
 
 2. Install.
